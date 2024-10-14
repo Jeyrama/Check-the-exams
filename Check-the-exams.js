@@ -36,3 +36,5 @@ function checkExam(array1, array2) {
   const score = array2.reduce(reducer, 0);
   return score < 0 ? 0 : score;
 }
+
+// or
